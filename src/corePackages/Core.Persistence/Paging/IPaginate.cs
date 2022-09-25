@@ -1,5 +1,8 @@
 ﻿namespace Core.Persistence.Paging;
 
+
+//Get ile başlayan repo yapılara Ipaginateden türeyerek dönmektedir.
+
 public interface IPaginate<T>
 {
     int From { get; }

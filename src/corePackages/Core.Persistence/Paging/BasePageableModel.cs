@@ -1,5 +1,7 @@
 ﻿namespace Core.Persistence.Paging;
 
+//modeli genişletmek için kullanılan tüm modellere page yapısı kazandırmak için kullanılan yapıdır.
+
 public class BasePageableModel
 {
     public int Index { get; set; }  //kaçıncı sayfa
