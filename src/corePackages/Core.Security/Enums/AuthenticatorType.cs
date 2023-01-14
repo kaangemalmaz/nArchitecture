@@ -1,5 +1,6 @@
 ﻿namespace Core.Security.Enums;
 
+//two factor authentication
 public enum AuthenticatorType
 {
     None = 0,

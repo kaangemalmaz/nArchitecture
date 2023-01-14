@@ -11,7 +11,7 @@ public class User : Entity
     public byte[] PasswordSalt { get; set; }
     public byte[] PasswordHash { get; set; }
     public bool Status { get; set; }
-    public AuthenticatorType AuthenticatorType { get; set; }
+    public AuthenticatorType AuthenticatorType { get; set; } //neyle authentication olacak user onu gösteerir. 
 
     public virtual ICollection<UserOperationClaim> UserOperationClaims { get; set; }
     public virtual ICollection<RefreshToken> RefreshTokens { get; set; }
